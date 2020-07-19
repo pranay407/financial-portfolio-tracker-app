@@ -4,7 +4,7 @@ import Header from '../Components/Header/Header';
 import Mystocks from '../Components/Mystocks/Mystocks';
 import Addstocks from '../Components/AddStocks/Addstocks';
 
- class Main extends Component {
+ class Home extends Component {
      constructor(props) {
          super(props)
          this.state = {
@@ -218,4 +218,4 @@ import Addstocks from '../Components/AddStocks/Addstocks';
     }
 }
 
-export default Main
+export default Home;
